@@ -27,3 +27,7 @@
     right: 1.15rem;
     cursor: pointer;
   }
+
+  .send:focus {
+    transform: rotate(-90deg);
+  }

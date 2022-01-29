@@ -41,15 +41,17 @@
   flex-direction: column-reverse;
   align-items: flex-start;
   overflow: auto;
+  margin-top: auto;
   max-height: calc(100vh - 4 rem - 4rem);
   min-height: calc(100vh - 4 rem - 4rem);
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .message {
-  color: white;
+  color: #ff877c;
   background: black;
   padding: 0.5rem 1rem;
-  margin: 0.2rem;
-  border-radius: 0.3rem;
+  margin: 0.3rem;
+  border-radius: 0.4rem;
+  border-bottom-left-radius: 0.1rem;
 }
