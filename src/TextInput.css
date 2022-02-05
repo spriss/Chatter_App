@@ -9,13 +9,16 @@
     position: relative;
   }
   .text-input {
-    width: 100%;
+    width: 94%;
     border: 1px #e74c3c;
     height: 2rem;
     border-radius: 1rem;
     padding: 0 1rem;
     background: black;
     color: white;
+    right: 1rem;
+    left: 3.8rem;
+    position: absolute;
   }
   .send {
     background: #e74c3c;
@@ -26,8 +29,20 @@
     position: absolute;
     right: 1.15rem;
     cursor: pointer;
+    float: right;
   }
 
   .send:focus {
     transform: rotate(-90deg);
+  }
+
+  .camera {
+    left: 1.15rem;
+    right: auto;
+    background: black;
+    border-radius: 50%;
+    border: none;
+    height: 1.7rem;
+    width: 1.7rem;
+    cursor: pointer;
   }
