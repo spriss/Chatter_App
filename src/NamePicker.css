@@ -1,0 +1,45 @@
+.enter-name {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.name-input {
+    cursor: pointer;
+    background: transparent;
+    height: 1.4rem;
+    width: 10vw;
+    border-radius: 1rem;
+    border-color: transparent;
+    padding: 0 0.5rem;
+    background: black;
+    color: white;
+    margin-right: 0.7rem;
+}
+
+.enter {
+    background: #e74c3c;
+    border-radius: 50%;
+    border: none;
+    height: 1.2rem;
+    width: 1.2rem;
+    position: absolute;
+    right: 1.8rem;
+    cursor: pointer;
+  }
+
+  .enter2 {
+    background: #000000;
+    border-radius: 50%;
+    border: none;
+    height: 1.4rem;
+    width: 1.4rem;
+    margin-right: 0.7rem;
+    cursor: pointer;
+  }
+
+.username {
+    color: white;
+    margin-right: 0.7rem;
+}
+
