@@ -55,3 +55,10 @@
   border-radius: 0.4rem;
   border-bottom-left-radius: 0.1rem;
 }
+
+.message-user {
+  position: absolute;
+  left: 0;
+  top: -10px;
+  font-size: 0.5rem;
+}

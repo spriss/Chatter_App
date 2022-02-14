@@ -4,21 +4,23 @@ import { useState } from 'react';
 import Message from './Message';
 import Camera from 'react-snap-pic';
 import NamePicker from './NamePicker.js';
+import {useDB, db} from "./db";
 
 function App() {
   /* fetch(url)
      .then(data=>console.log(data)) */
-  const [messages, setMessages] = useState([]);
+  const messages = useDB();
+  let [username, setUsername] = useState("");
   const [showCamera, setShowCamera] = useState(false)
   function sendMessage(text) {
     if (!text) return;
     // we'll create a new message object
     const newMessage = {
-      text,
+      text: text,
       time: Date.now(),
-      user: "Sebastian",
+      user: username,
     };
-    setMessages([newMessage, ...messages]);
+    db.send(newMessage);
   }
   console.log(messages);
   
